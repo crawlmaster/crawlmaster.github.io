@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js" defer></script>
+</head>
+<body>
+    <div class="topside">
+        <div id="madebyme">
+            Made by Mihai
+        </div>
+        <div id="game-title">
+            Etch-a-Sketch
+        </div>
+    </div>
+    <div class="container">
+        <div class="options">
+            <div class="color-picker">
+                <input id ="palette" type="color">
+                <p>Select a color for the pencil</p>
+            </div>
+            <div class="rainbow-color">
+                <button id="rainbow">Rainbow</button>
+            </div>
+            <div class="grid">
+                <p>Grid size</p>
+                <input type="range" id="grid-size" value="0" min="10" max="100">
+                <p id="grid-out">0&nbsp;&nbsp;&nbsp;x&nbsp;&nbsp;&nbsp; 0</p>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+        <div class="playarea">
+
+        </div>
+    </div>
+</body>
+</html>
